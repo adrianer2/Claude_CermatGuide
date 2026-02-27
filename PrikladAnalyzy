@@ -1,0 +1,63 @@
+# Analýza testu — MA_2024_9A
+
+> **Poznámka:** Toto je ukázkový výstup s fiktivními daty. Ukazuje, jak vypadá analýza po nahrání reálného testu.
+
+**Datum vypracování:** 15. 2. 2026
+**Verze testu:** MA_2024_9A
+**Soubory:** zadani.pdf, vysledky_str1.jpg, vysledky_str2.jpg
+
+---
+
+## Výsledek: 39 / 50 bodů (78 %)
+
+| Oblast | Max bodů | Získáno | % úspěšnosti |
+|--------|----------|---------|--------------|
+| Čísla a početní operace | 10 b | 9 b | 90 % |
+| Algebra (výrazy, rovnice) | 10 b | 8 b | 80 % |
+| Geometrie (rovinná + tělesa) | 12 b | 8 b | 67 % |
+| Slovní úlohy a kombinatorika | 10 b | 9 b | 90 % |
+| Statistika a pravděpodobnost | 5 b | 4 b | 80 % |
+| Konstrukce | 3 b | 1 b | 33 % |
+| **Celkem** | **50 b** | **39 b** | **78 %** |
+
+Cíl je 43+ bodů (86 %). Chybí 4 body — primárně z geometrie a konstrukce.
+
+---
+
+## Chyby
+
+### Chyba 1 — Úloha 4: Objem jehlanu
+
+**Správná odpověď:** 160 cm³
+**Odpověď studenta:** 480 cm³
+**Typ chyby:** záměna vzorce — použit vzorec pro hranol (V = S · h) místo jehlanu (V = ⅓ · S · h)
+**Rozbor:** Základna jehlanu má obsah S = 6 · 8 = 48 cm². Výška h = 10 cm. Správně: V = ⅓ · 48 · 10 = 160 cm³. Student vynechal koeficient ⅓, což je typická chyba u těles s vrcholem (jehlan, kužel).
+**Co procvičit:** Vzorce pro objem jehlanu a kužele vs. hranol a válec — naučit se odlišovat, kdy se ⅓ použije.
+
+---
+
+### Chyba 2 — Úloha 7: Konstrukce úsečky
+
+**Správná odpověď:** Konstrukce středové příčky trojúhelníku s popisem kroků
+**Odpověď studenta:** Chybí popis kroků, pouze výsledný obrázek
+**Typ chyby:** chybný zápis — postup pravděpodobně správný, ale bez slovního popisu kroků není hodnocen plným počtem bodů
+**Rozbor:** U konstrukčních úloh jsou body uděleny za: (1) správný výsledek, (2) popis použitých kroků. Bez popisu student dostane jen část bodů.
+**Co procvičit:** Zvyknout si psát postup konstrukce slovně — „Narýsuji úsečku AB, kružítkem s poloměrem > AB/2 narýsuji kružnice se středy A a B, jejich průsečíky spojím."
+
+---
+
+### Chyba 3 — Úloha 12: Procenta
+
+**Správná odpověď:** B) 37,5 %
+**Odpověď studenta:** C) 62,5 %
+**Typ chyby:** špatný převod textu — student spočítal, jakou část tvoří velká písmena, místo malých
+**Rozbor:** Úloha se ptala na podíl malých písmen. Student pravděpodobně přečetl otázku nepřesně. Výpočet byl správný, jen pro špatnou část.
+**Co procvičit:** Podtrhávat klíčová slova v zadání před výpočtem — „jaká část", „kolik procent", „o kolik více/méně".
+
+---
+
+## Doporučení pro studium
+
+1. **Vzorce pro objem těles s vrcholem** — jehlan a kužel vs. hranol a válec. Procvičit 5–10 úloh specificky na toto rozlišení.
+2. **Popis konstrukčních kroků** — u každé příští konstrukce psát postup větami, i když to zabere čas.
+3. **Čtení zadání** — před řešením podtrhnout, na co přesně se otázka ptá.
